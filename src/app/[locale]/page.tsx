@@ -63,6 +63,7 @@ const Navbar = () => {
     { label: t("offers"), href: "#offres" },
     { label: t("expertises"), href: "#expertises" },
     { label: t("mobile"), href: "#mobile" },
+    { label: t("projects"), href: "#projets" },
     { label: t("contact"), href: "#contact" },
   ];
 
@@ -305,7 +306,7 @@ const OffersSection = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="font-mono text-[9px] uppercase tracking-[0.2em] text-neutral-600 leading-relaxed"
+            className="font-mono text-xs uppercase tracking-[0.2em] text-neutral-600 leading-relaxed"
           >
             {t("description")}
           </motion.p>
@@ -314,7 +315,7 @@ const OffersSection = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
-            className="text-sm font-light text-neutral-600 leading-relaxed"
+            className="text-base font-medium text-neutral-700 leading-relaxed"
           >
             {t("approach")}
           </motion.p>
@@ -336,7 +337,7 @@ const OffersSection = () => {
             {domains.map((domain, i) => (
               <span
                 key={i}
-                className="border border-neutral-200 px-4 py-2 text-[10px] uppercase tracking-widest text-neutral-600 hover:border-blue-600/40 hover:text-blue-600 transition-colors cursor-default"
+                className="border border-neutral-200 px-4 py-2 text-xs uppercase tracking-widest text-neutral-600 hover:border-blue-600/40 hover:text-blue-600 transition-colors cursor-default"
               >
                 {domain}
               </span>
@@ -351,7 +352,7 @@ const OffersSection = () => {
             {sectors.map((sector, i) => (
               <span
                 key={i}
-                className="text-[10px] uppercase tracking-widest text-neutral-600 after:content-['·'] after:ml-3 after:text-neutral-300 last:after:content-none"
+                className="text-xs uppercase tracking-widest text-neutral-600 after:content-['·'] after:ml-3 after:text-neutral-300 last:after:content-none"
               >
                 {sector}
               </span>
@@ -390,7 +391,7 @@ const OffersSection = () => {
                 {offer.title}
               </h3>
 
-              <p className="font-sans text-sm font-light text-neutral-600 leading-relaxed mb-10 max-w-sm">
+              <p className="font-sans text-base font-medium text-neutral-700 leading-relaxed mb-10 max-w-sm">
                 {offer.description}
               </p>
 
@@ -399,7 +400,7 @@ const OffersSection = () => {
                   {offer.capabilities.map((cap, i) => (
                     <li key={i} className="flex items-center gap-3">
                       <span className="w-1 h-1 rounded-full bg-blue-600/30" />
-                      <span className="font-mono text-[10px] uppercase tracking-widest text-neutral-600">
+                      <span className="font-mono text-xs uppercase tracking-widest text-neutral-600">
                         {cap}
                       </span>
                     </li>
@@ -475,7 +476,7 @@ const ExpertisesSection = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="font-mono text-[9px] uppercase tracking-[0.2em] text-neutral-600 leading-relaxed max-w-xs"
+            className="font-mono text-xs uppercase tracking-[0.2em] text-neutral-600 leading-relaxed max-w-xs"
           >
             {t("description")}
           </motion.p>
@@ -505,7 +506,7 @@ const ExpertisesSection = () => {
                 {pole.title}
               </h3>
 
-              <p className="text-sm font-light text-neutral-600 leading-relaxed mb-12 max-w-md">
+              <p className="text-base font-medium text-neutral-700 leading-relaxed mb-12 max-w-md">
                 {pole.description}
               </p>
 
@@ -514,7 +515,7 @@ const ExpertisesSection = () => {
                   {pole.capabilities.map((cap, i) => (
                     <div key={i} className="flex items-center gap-3">
                       <span className="w-1 h-1 rounded-full bg-blue-600/30" />
-                      <span className="font-mono text-[10px] uppercase tracking-widest text-neutral-600">
+                      <span className="font-mono text-xs uppercase tracking-widest text-neutral-600">
                         {cap}
                       </span>
                     </div>
@@ -575,7 +576,7 @@ const MobileSection = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3 }}
-            className="mt-6 md:mt-8 text-sm font-light text-neutral-600 leading-relaxed max-w-lg"
+            className="mt-6 md:mt-8 text-base font-medium text-neutral-700 leading-relaxed max-w-lg"
           >
             {t("description")}
           </motion.p>
@@ -648,7 +649,7 @@ const MobileSection = () => {
               <h3 className="text-2xl font-serif italic lowercase tracking-tight mb-4 group-hover:text-blue-600 transition-colors duration-500">
                 {feature.title}
               </h3>
-              <p className="text-sm font-light text-neutral-600 leading-relaxed">
+              <p className="text-base font-medium text-neutral-700 leading-relaxed">
                 {feature.description}
               </p>
             </div>
@@ -670,13 +671,120 @@ const MobileSection = () => {
           {techs.map((tech, i) => (
             <span
               key={i}
-              className="border border-neutral-200 px-4 py-2 text-[10px] uppercase tracking-widest text-neutral-600 hover:border-blue-600/40 hover:text-blue-600 transition-colors cursor-default"
+              className="border border-neutral-200 px-4 py-2 text-xs uppercase tracking-widest text-neutral-600 hover:border-blue-600/40 hover:text-blue-600 transition-colors cursor-default"
             >
               {tech}
             </span>
           ))}
         </div>
       </motion.div>
+    </section>
+  );
+};
+
+const ProjectsSection = () => {
+  const t = useTranslations("projects");
+
+  const projects = [
+    {
+      title: t("project1.title"),
+      description: t("project1.description"),
+      tag: t("project1.tag"),
+      year: t("project1.year"),
+      url: t("project1.url"),
+    },
+    {
+      title: t("project2.title"),
+      description: t("project2.description"),
+      tag: t("project2.tag"),
+      year: t("project2.year"),
+      url: t("project2.url"),
+    },
+    {
+      title: t("project3.title"),
+      description: t("project3.description"),
+      tag: t("project3.tag"),
+      year: t("project3.year"),
+      url: t("project3.url"),
+    },
+  ];
+
+  return (
+    <section id="projets" className="py-16 md:py-32 px-6 lg:px-12 border-t border-neutral-200">
+      <header className="mb-12 md:mb-24">
+        <motion.span
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          className="font-mono text-xs uppercase tracking-widest text-neutral-400 block mb-4"
+        >
+          {t("label")}
+        </motion.span>
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          className="font-serif italic lowercase text-4xl md:text-8xl tracking-tighter leading-[0.9]"
+        >
+          {t("title")}
+        </motion.h2>
+        <motion.p
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.2, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          className="mt-4 md:mt-6 text-xl md:text-3xl font-serif italic lowercase tracking-tight text-blue-600"
+        >
+          {t("headline")}
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.3 }}
+          className="mt-6 text-base font-medium text-neutral-700 leading-relaxed max-w-lg"
+        >
+          {t("description")}
+        </motion.p>
+      </header>
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+        {projects.map((project, index) => (
+          <motion.a
+            key={index}
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: index * 0.1, ease: [0.16, 1, 0.3, 1] }}
+            className="group border border-neutral-200 p-8 md:p-10 hover:border-blue-600/30 transition-colors duration-500 block"
+          >
+            <div className="flex items-center justify-between mb-6">
+              <span className="text-xs uppercase tracking-widest text-blue-600 font-mono">
+                {project.tag}
+              </span>
+              <div className="flex items-center gap-3">
+                <span className="font-mono text-xs text-neutral-400">
+                  {project.year}
+                </span>
+                <ArrowUpRight
+                  size={14}
+                  className="text-neutral-300 group-hover:text-blue-600 transition-colors"
+                />
+              </div>
+            </div>
+            <h3 className="text-2xl md:text-3xl font-serif italic lowercase tracking-tight mb-4 group-hover:text-blue-600 transition-colors duration-500">
+              {project.title}
+            </h3>
+            <p className="text-base font-medium text-neutral-700 leading-relaxed">
+              {project.description}
+            </p>
+          </motion.a>
+        ))}
+      </div>
     </section>
   );
 };
@@ -718,7 +826,7 @@ export default function Home() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5, duration: 1 }}
-              className="text-neutral-600 text-sm md:text-base leading-relaxed font-light"
+              className="text-neutral-700 text-base md:text-lg leading-relaxed font-medium"
             >
               {t("hero.description")} <RotatingTagline />.
             </motion.p>
@@ -729,7 +837,7 @@ export default function Home() {
               transition={{ delay: 0.8, duration: 0.8 }}
               className="mt-8 flex items-center gap-6"
             >
-              <button className="group flex items-center gap-3 text-xs uppercase tracking-widest font-bold">
+              <button className="group flex items-center gap-3 text-sm uppercase tracking-widest font-bold">
                 {t("hero.cta")}
                 <div className="w-8 h-[1px] bg-blue-600 group-hover:w-16 transition-all duration-500" />
               </button>
@@ -794,16 +902,16 @@ export default function Home() {
           </motion.div>
 
           <div className="mt-auto space-y-2">
-            <p className="text-neutral-500 text-[9px] uppercase tracking-widest leading-none">
+            <p className="text-neutral-500 text-xs uppercase tracking-widest leading-none">
               {t("hero.collaborators")}
             </p>
-            <p className="text-neutral-700 text-xs font-serif italic">
+            <p className="text-neutral-700 text-sm font-serif italic">
               {t("hero.collaborator1")}
             </p>
-            <p className="text-neutral-700 text-xs font-serif italic">
+            <p className="text-neutral-700 text-sm font-serif italic">
               {t("hero.collaborator2")}
             </p>
-            <p className="text-neutral-700 text-xs font-serif italic">
+            <p className="text-neutral-700 text-sm font-serif italic">
               {t("hero.collaborator3")}
             </p>
           </div>
@@ -815,6 +923,8 @@ export default function Home() {
       <ExpertisesSection />
 
       <MobileSection />
+
+      <ProjectsSection />
 
       <footer
         id="contact"
@@ -828,11 +938,11 @@ export default function Home() {
             <div className="mt-12 flex flex-col gap-4">
               <a
                 href="mailto:hello@teggitech.sn"
-                className="text-xl md:text-3xl font-light hover:text-blue-400 transition-colors underline underline-offset-8 decoration-neutral-600"
+                className="text-xl md:text-3xl font-normal hover:text-blue-400 transition-colors underline underline-offset-8 decoration-neutral-600"
               >
                 hello@teggitech.sn
               </a>
-              <p className="text-neutral-400 text-xs uppercase tracking-widest mt-4">
+              <p className="text-neutral-400 text-sm uppercase tracking-widest mt-4">
                 {t("footer.location")}
               </p>
             </div>

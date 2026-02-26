@@ -1,134 +1,162 @@
 {
   "metadata": {
     "title": "TeggiTech — Agence Digitale | Dakar, Sénégal",
-    "description": "Nous créons des expériences digitales. Applications mobiles, plateformes web et solutions gouvernementales conçues en Afrique de l'Ouest pour le monde."
+    "description": "Nous créons des applications mobiles, sites web et solutions digitales. Basés à Dakar, nous travaillons pour l'Afrique et le monde."
   },
   "nav": {
-    "offers": "Offres",
+    "offers": "Services",
     "expertises": "Expertises",
     "mobile": "Mobile",
+    "projects": "Projets",
     "contact": "Contact",
     "cta": "Démarrer un projet"
   },
   "hero": {
-    "label": "Excellence Technique / Dakar",
+    "label": "Agence Digitale / Dakar",
     "title1": "On Crée",
     "title2": "des Expériences",
     "title3": "Digitales",
-    "description": "Un studio premium de design et développement qui transforme les idées complexes en solutions digitales élégantes. Depuis l'Afrique de l'Ouest vers le monde, nous construisons pour",
+    "description": "On conçoit et développe vos applications mobiles, sites web et plateformes digitales. Depuis Dakar pour le monde entier, nous construisons pour",
     "cta": "Voir nos réalisations",
     "imageLabel": "Laboratoire 04-B / Dakar",
-    "collaborators": "Nos collaborations",
+    "collaborators": "Ils nous font confiance",
     "collaborator1": "Le Gouvernement du Sénégal",
     "collaborator2": "Startups Régionales",
     "collaborator3": "Entreprises Internationales"
   },
   "taglines": {
-    "1": "Plateformes Web",
-    "2": "Applications Mobiles",
-    "3": "Solutions Gouvernementales",
-    "4": "E-Commerce"
+    "1": "plateformes web",
+    "2": "applications mobiles",
+    "3": "solutions sur-mesure",
+    "4": "e-commerce"
   },
   "offers": {
-    "label": "Notre expertise",
-    "title": "nos offres",
-    "headline": "On vous accompagne de bout en bout",
-    "description": "Trois piliers pour transformer vos ambitions digitales en réalité technique.",
-    "approach": "Notre approche repose sur des pratiques agiles et un regard critique permanent. À la fois exécutants et penseurs, nous accompagnons vos transformations de la stratégie à la mise en production.",
+    "label": "Ce qu'on fait",
+    "title": "nos services",
+    "headline": "On vous accompagne de A à Z",
+    "description": "De l'idée au produit final, on s'occupe de tout.",
+    "approach": "On travaille main dans la main avec vous. On écoute, on conseille, on construit. Pas de jargon inutile, juste des résultats concrets.",
     "domainsLabel": "Nos domaines",
-    "domain1": "Solutions Mobile-First",
-    "domain2": "Produits Digitaux Sur-Mesure",
-    "domain3": "Technologies Gouvernementales",
-    "domain4": "Propulsé par l'IA",
-    "sectorsLabel": "Secteurs d'intervention",
+    "domain1": "Applications Mobiles",
+    "domain2": "Sites & Plateformes Web",
+    "domain3": "Solutions Gouvernementales",
+    "domain4": "Intelligence Artificielle",
+    "sectorsLabel": "Secteurs",
     "sector1": "Service Public",
-    "sector2": "Finance & Fintech",
-    "sector3": "Commerce & Logistique",
+    "sector2": "Finance",
+    "sector3": "Commerce",
     "sector4": "Immobilier",
-    "sector5": "Startups & Scale-ups",
+    "sector5": "Startups",
     "conseil": {
       "title": "conseil",
-      "description": "Nous analysons vos besoins, auditons les systèmes existants et définissons l'architecture technique optimale. Nous vous guidons dans vos choix technologiques.",
-      "cap1": "Audit technique",
-      "cap2": "Architecture cloud",
-      "cap3": "Choix de stack",
-      "cap4": "Bonnes pratiques"
+      "description": "On analyse votre besoin, on étudie ce qui existe déjà et on vous recommande la meilleure solution technique. Simple et clair.",
+      "cap1": "Analyse des besoins",
+      "cap2": "Recommandations techniques",
+      "cap3": "Choix des outils",
+      "cap4": "Plan d'action"
     },
     "strategie": {
       "title": "stratégie",
-      "description": "Nous définissons la roadmap de votre produit digital, priorisons les fonctionnalités, planifions les sprints et concevons votre go-to-market. Du MVP au scale.",
-      "cap1": "Roadmap produit",
-      "cap2": "Stratégie UX",
-      "cap3": "Go-to-market",
-      "cap4": "Planification sprints"
+      "description": "On définit ensemble les priorités de votre projet, les étapes clés et la meilleure façon d'arriver au résultat. Du premier prototype au lancement.",
+      "cap1": "Feuille de route",
+      "cap2": "Expérience utilisateur",
+      "cap3": "Plan de lancement",
+      "cap4": "Planification projet"
     },
     "delivery": {
-      "title": "delivery",
-      "description": "Nous construisons. Applications mobiles cross-platform iOS & Android en React Native, plateformes web en Next.js, APIs et intégrations. Développement end-to-end avec assurance qualité.",
-      "cap1": "Next.js / React",
-      "cap2": "iOS & Android / React Native",
-      "cap3": "API Design",
-      "cap4": "Assurance qualité"
+      "title": "réalisation",
+      "description": "On construit votre produit. Applications mobiles pour iPhone et Android, sites web, plateformes en ligne. Du développement complet avec un suivi qualité.",
+      "cap1": "Sites web modernes",
+      "cap2": "Apps iPhone & Android",
+      "cap3": "Plateformes en ligne",
+      "cap4": "Suivi qualité"
     }
   },
   "expertises": {
-    "label": "Nos expertises",
+    "label": "Nos métiers",
     "title": "nos expertises",
-    "description": "Deux pôles de compétences complémentaires pour concevoir et livrer des produits digitaux d'exception.",
+    "description": "Design et développement : deux équipes complémentaires pour créer des produits digitaux qui marchent.",
     "product": {
-      "title": "Product & Design",
-      "description": "Nous concevons des expériences utilisateur qui combinent esthétique et fonctionnalité. De la recherche utilisateur au design system, nous créons des interfaces qui convertissent et fidélisent.",
-      "cap1": "Recherche utilisateur",
-      "cap2": "UI/UX Design",
-      "cap3": "Design Systems",
-      "cap4": "Prototypage & Tests",
+      "title": "Design & Produit",
+      "description": "On crée des interfaces belles et simples à utiliser. On pense à vos utilisateurs à chaque étape pour que votre produit soit intuitif et agréable.",
+      "cap1": "Étude utilisateurs",
+      "cap2": "Design d'interfaces",
+      "cap3": "Identité visuelle",
+      "cap4": "Maquettes & Tests",
       "cap5": "Direction artistique"
     },
     "engineering": {
-      "title": "Software Engineering",
-      "description": "Nous architecturons et développons des systèmes robustes et scalables. Code propre, performance optimale, et déploiement continu pour des produits qui tiennent la charge.",
-      "cap1": "Next.js / React",
-      "cap2": "Cross-Platform iOS & Android",
-      "cap3": "Node.js / APIs",
-      "cap4": "Cloud & DevOps",
-      "cap5": "Base de données & Backend"
+      "title": "Développement",
+      "description": "On développe des applications solides et rapides. Un code propre, des performances au top et un produit qui tient dans la durée.",
+      "cap1": "Sites & Apps web",
+      "cap2": "Apps mobiles",
+      "cap3": "Serveurs & APIs",
+      "cap4": "Hébergement cloud",
+      "cap5": "Bases de données"
     }
   },
   "mobile": {
     "label": "Applications Mobiles",
-    "title": "mobile-first",
-    "headline": "Une app native, deux plateformes",
-    "description": "Nous concevons et développons des applications mobiles cross-platform pour iOS et Android avec une seule base de code. Performance native, expérience fluide, déploiement rapide.",
-    "stat1Label": "Plateformes",
-    "stat1Value": "iOS & Android",
-    "stat2Label": "Framework",
+    "title": "mobile",
+    "headline": "Votre app sur iPhone et Android",
+    "description": "On développe votre application mobile pour les deux plateformes en même temps. Résultat : une app rapide, fluide et prête pour les stores.",
+    "stat1Label": "Disponible sur",
+    "stat1Value": "iPhone & Android",
+    "stat2Label": "Technologie",
     "stat2Value": "React Native",
-    "stat3Label": "Approche",
-    "stat3Value": "Cross-Platform",
+    "stat3Label": "Avantage",
+    "stat3Value": "2 apps, 1 projet",
     "feature1": {
-      "title": "Performance native",
-      "description": "Des animations fluides à 60fps et un accès direct aux APIs natives pour une expérience indistinguable d'une app native."
+      "title": "Rapide et fluide",
+      "description": "Votre app fonctionne aussi bien qu'une application native. Animations fluides, chargement rapide, expérience agréable."
     },
     "feature2": {
-      "title": "Un code, deux stores",
-      "description": "Une seule base de code partagée entre iOS et Android. Réduction des coûts, maintenance simplifiée, mises à jour synchronisées."
+      "title": "iPhone et Android en même temps",
+      "description": "Pas besoin de développer deux fois. On crée une seule app qui marche partout. Moins cher, plus rapide, plus simple à maintenir."
     },
     "feature3": {
-      "title": "Du prototype au store",
-      "description": "De la conception UI/UX au déploiement sur l'App Store et Google Play. CI/CD, OTA updates et monitoring inclus."
+      "title": "Du design au store",
+      "description": "On s'occupe de tout : design, développement, et publication sur l'App Store et Google Play. Votre app est prête à être téléchargée."
     },
-    "techLabel": "Stack mobile",
+    "techLabel": "Technologies utilisées",
     "tech1": "React Native",
     "tech2": "Expo",
     "tech3": "TypeScript",
-    "tech4": "Native Modules",
+    "tech4": "Modules Natifs",
     "tech5": "App Store / Play Store"
   },
+  "projects": {
+    "label": "Nos réalisations",
+    "title": "projets",
+    "headline": "Ce qu'on a construit",
+    "description": "Quelques projets sur lesquels on a travaillé. Chaque projet est une collaboration unique avec nos clients.",
+    "project1": {
+      "title": "Tiak-Tiak",
+      "description": "Application mobile de transport et livraison à la demande. Mise en relation chauffeurs et passagers en temps réel au Sénégal.",
+      "tag": "Transport",
+      "year": "2025",
+      "url": "https://www.tiak-tiak.sn/"
+    },
+    "project2": {
+      "title": "Tiak-Tiak Marketplace",
+      "description": "Plateforme e-commerce intégrée à l'écosystème Tiak-Tiak. Achat, vente et livraison de produits locaux en un seul endroit.",
+      "tag": "E-Commerce",
+      "year": "2025",
+      "url": "https://www.tiak-tiak.sn/"
+    },
+    "project3": {
+      "title": "Lardoiz",
+      "description": "Plateforme de gestion scolaire. Inscriptions en ligne, suivi des paiements, communication parents-école et tableaux de bord pour les établissements au Sénégal.",
+      "tag": "Éducation",
+      "year": "2024",
+      "url": "https://lardoiz.com/"
+    }
+  },
   "footer": {
-    "title1": "Prêt à",
-    "title2": "passer au niveau supérieur ?",
+    "title1": "Un projet",
+    "title2": "en tête ?",
     "location": "Plateau, Dakar, Sénégal",
-    "rights": "© {year} TeggiTech Agency. Tous droits réservés.",
+    "rights": "© {year} TeggiTech. Tous droits réservés.",
     "tagline": "Conçu à Dakar / Construit pour le monde"
   }
 }

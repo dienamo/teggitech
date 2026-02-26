@@ -1,134 +1,162 @@
 {
   "metadata": {
     "title": "TeggiTech — Digital Agency | Dakar, Senegal",
-    "description": "We craft digital experiences. Mobile apps, web platforms, and government solutions built in West Africa for the world."
+    "description": "We build mobile apps, websites and digital solutions. Based in Dakar, working for Africa and the world."
   },
   "nav": {
     "offers": "Services",
     "expertises": "Expertise",
     "mobile": "Mobile",
+    "projects": "Projects",
     "contact": "Contact",
     "cta": "Start a project"
   },
   "hero": {
-    "label": "Engineering Excellence / Dakar",
+    "label": "Digital Agency / Dakar",
     "title1": "We Craft",
     "title2": "Digital",
     "title3": "Experiences",
-    "description": "A premium design and development studio bridging the gap between hardware complexity and user-centric software. From West Africa to the world, we build for",
-    "cta": "View Case Studies",
+    "description": "We design and build mobile apps, websites and digital platforms. From Dakar to the world, we create for",
+    "cta": "See our work",
     "imageLabel": "Laboratory 04-B / Dakar",
-    "collaborators": "Collaborating with",
+    "collaborators": "Trusted by",
     "collaborator1": "The Senegalese Government",
     "collaborator2": "Regional Startups",
     "collaborator3": "Global Enterprises"
   },
   "taglines": {
-    "1": "Web Platforms",
-    "2": "Mobile Apps",
-    "3": "Government Solutions",
-    "4": "E-Commerce"
+    "1": "web platforms",
+    "2": "mobile apps",
+    "3": "custom solutions",
+    "4": "e-commerce"
   },
   "offers": {
-    "label": "Our expertise",
-    "title": "our offers",
-    "headline": "We support you end-to-end",
-    "description": "Three pillars to turn your digital ambitions into technical reality.",
-    "approach": "Our approach is built on agile practices and a permanent critical eye. Both doers and thinkers, we guide your transformations from strategy to production.",
+    "label": "What we do",
+    "title": "our services",
+    "headline": "We've got you covered from A to Z",
+    "description": "From idea to finished product, we handle everything.",
+    "approach": "We work hand in hand with you. We listen, advise, and build. No unnecessary jargon, just real results.",
     "domainsLabel": "Our domains",
-    "domain1": "Mobile-First Solutions",
-    "domain2": "Tailor-Made Digital Products",
-    "domain3": "Government Technology",
-    "domain4": "Powered by AI",
-    "sectorsLabel": "Industries we serve",
+    "domain1": "Mobile Apps",
+    "domain2": "Websites & Platforms",
+    "domain3": "Government Solutions",
+    "domain4": "Artificial Intelligence",
+    "sectorsLabel": "Industries",
     "sector1": "Public Sector",
-    "sector2": "Finance & Fintech",
-    "sector3": "Commerce & Logistics",
+    "sector2": "Finance",
+    "sector3": "Commerce",
     "sector4": "Real Estate",
-    "sector5": "Startups & Scale-ups",
+    "sector5": "Startups",
     "conseil": {
       "title": "consulting",
-      "description": "We analyze your needs, audit existing systems, and define the optimal technical architecture. We guide you through technology choices and best practices.",
-      "cap1": "Technical audit",
-      "cap2": "Cloud architecture",
-      "cap3": "Stack selection",
-      "cap4": "Best practices"
+      "description": "We analyze your needs, review what already exists, and recommend the best technical solution. Simple and clear.",
+      "cap1": "Needs analysis",
+      "cap2": "Technical recommendations",
+      "cap3": "Tool selection",
+      "cap4": "Action plan"
     },
     "strategie": {
       "title": "strategy",
-      "description": "We define your digital product roadmap, prioritize features, plan sprints, and design your go-to-market. From MVP to scale.",
-      "cap1": "Product roadmap",
-      "cap2": "UX strategy",
-      "cap3": "Go-to-market",
-      "cap4": "Sprint planning"
+      "description": "Together we define your project priorities, key milestones, and the best path to results. From first prototype to launch.",
+      "cap1": "Roadmap",
+      "cap2": "User experience",
+      "cap3": "Launch plan",
+      "cap4": "Project planning"
     },
     "delivery": {
       "title": "delivery",
-      "description": "We build. Cross-platform mobile apps for iOS & Android with React Native, web platforms with Next.js, APIs and integrations. End-to-end development with quality assurance.",
-      "cap1": "Next.js / React",
-      "cap2": "iOS & Android / React Native",
-      "cap3": "API Design",
+      "description": "We build your product. Mobile apps for iPhone and Android, websites, online platforms. Full development with quality assurance.",
+      "cap1": "Modern websites",
+      "cap2": "iPhone & Android apps",
+      "cap3": "Online platforms",
       "cap4": "Quality assurance"
     }
   },
   "expertises": {
-    "label": "Our expertise",
+    "label": "What we're good at",
     "title": "our expertise",
-    "description": "Two complementary skill sets to design and deliver exceptional digital products.",
+    "description": "Design and development: two complementary teams to create digital products that work.",
     "product": {
-      "title": "Product & Design",
-      "description": "We design user experiences that combine aesthetics and functionality. From user research to design systems, we create interfaces that convert and retain.",
+      "title": "Design & Product",
+      "description": "We create beautiful and easy-to-use interfaces. We think about your users at every step so your product feels intuitive and delightful.",
       "cap1": "User research",
-      "cap2": "UI/UX Design",
-      "cap3": "Design Systems",
-      "cap4": "Prototyping & Testing",
+      "cap2": "Interface design",
+      "cap3": "Visual identity",
+      "cap4": "Mockups & Testing",
       "cap5": "Art direction"
     },
     "engineering": {
-      "title": "Software Engineering",
-      "description": "We architect and develop robust, scalable systems. Clean code, optimal performance, and continuous deployment for products that handle the load.",
-      "cap1": "Next.js / React",
-      "cap2": "Cross-Platform iOS & Android",
-      "cap3": "Node.js / APIs",
-      "cap4": "Cloud & DevOps",
-      "cap5": "Database & Backend"
+      "title": "Development",
+      "description": "We build solid and fast applications. Clean code, great performance, and a product that lasts.",
+      "cap1": "Websites & Web apps",
+      "cap2": "Mobile apps",
+      "cap3": "Servers & APIs",
+      "cap4": "Cloud hosting",
+      "cap5": "Databases"
     }
   },
   "mobile": {
     "label": "Mobile Apps",
-    "title": "mobile-first",
-    "headline": "One app, two platforms",
-    "description": "We design and develop cross-platform mobile apps for iOS and Android from a single codebase. Native performance, seamless experience, rapid deployment.",
-    "stat1Label": "Platforms",
-    "stat1Value": "iOS & Android",
-    "stat2Label": "Framework",
+    "title": "mobile",
+    "headline": "Your app on iPhone and Android",
+    "description": "We build your mobile app for both platforms at once. The result: a fast, smooth app ready for the stores.",
+    "stat1Label": "Available on",
+    "stat1Value": "iPhone & Android",
+    "stat2Label": "Technology",
     "stat2Value": "React Native",
-    "stat3Label": "Approach",
-    "stat3Value": "Cross-Platform",
+    "stat3Label": "Benefit",
+    "stat3Value": "2 apps, 1 project",
     "feature1": {
-      "title": "Native performance",
-      "description": "Smooth 60fps animations and direct access to native APIs for an experience indistinguishable from a native app."
+      "title": "Fast and smooth",
+      "description": "Your app works just as well as a native app. Smooth animations, fast loading, great experience."
     },
     "feature2": {
-      "title": "One code, two stores",
-      "description": "A single shared codebase for iOS and Android. Reduced costs, simplified maintenance, synchronized updates."
+      "title": "iPhone and Android at once",
+      "description": "No need to build twice. We create one app that works everywhere. Cheaper, faster, easier to maintain."
     },
     "feature3": {
-      "title": "From prototype to store",
-      "description": "From UI/UX design to App Store and Google Play deployment. CI/CD, OTA updates and monitoring included."
+      "title": "From design to store",
+      "description": "We handle everything: design, development, and publishing on the App Store and Google Play. Your app is ready to download."
     },
-    "techLabel": "Mobile stack",
+    "techLabel": "Technologies we use",
     "tech1": "React Native",
     "tech2": "Expo",
     "tech3": "TypeScript",
     "tech4": "Native Modules",
     "tech5": "App Store / Play Store"
   },
+  "projects": {
+    "label": "Our work",
+    "title": "projects",
+    "headline": "What we've built",
+    "description": "A few projects we've worked on. Each one is a unique collaboration with our clients.",
+    "project1": {
+      "title": "Tiak-Tiak",
+      "description": "On-demand transport and delivery mobile app. Real-time driver-passenger matching across Senegal.",
+      "tag": "Transport",
+      "year": "2025",
+      "url": "https://www.tiak-tiak.sn/"
+    },
+    "project2": {
+      "title": "Tiak-Tiak Marketplace",
+      "description": "E-commerce platform integrated into the Tiak-Tiak ecosystem. Buy, sell and deliver local products in one place.",
+      "tag": "E-Commerce",
+      "year": "2025",
+      "url": "https://www.tiak-tiak.sn/"
+    },
+    "project3": {
+      "title": "Lardoiz",
+      "description": "School management platform. Online enrollment, payment tracking, parent-school communication and dashboards for institutions in Senegal.",
+      "tag": "Education",
+      "year": "2024",
+      "url": "https://lardoiz.com/"
+    }
+  },
   "footer": {
-    "title1": "Ready to",
-    "title2": "escalate?",
+    "title1": "Got a project",
+    "title2": "in mind?",
     "location": "Plateau, Dakar, Senegal",
-    "rights": "© {year} TeggiTech Agency. All Rights Reserved.",
+    "rights": "© {year} TeggiTech. All Rights Reserved.",
     "tagline": "Designed in Dakar / Built for the world"
   }
 }
