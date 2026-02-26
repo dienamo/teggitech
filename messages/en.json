@@ -6,7 +6,7 @@
   "nav": {
     "offers": "Services",
     "expertises": "Expertise",
-    "projects": "Work",
+    "mobile": "Mobile",
     "contact": "Contact",
     "cta": "Start a project"
   },
@@ -94,30 +94,40 @@
       "cap5": "Database & Backend"
     }
   },
-  "projects": {
-    "title": "Featured",
-    "subtitle": "Archives",
-    "description": "Selected projects that showcase our commitment to technical precision and aesthetic clarity.",
-    "project1": {
-      "title": "TiakTiak Ecosystem",
-      "category": "Marketplace / Logistics / Mobile"
+  "mobile": {
+    "label": "Mobile Apps",
+    "title": "mobile-first",
+    "headline": "One app, two platforms",
+    "description": "We design and develop cross-platform mobile apps for iOS and Android from a single codebase. Native performance, seamless experience, rapid deployment.",
+    "stat1Label": "Platforms",
+    "stat1Value": "iOS & Android",
+    "stat2Label": "Framework",
+    "stat2Value": "React Native",
+    "stat3Label": "Approach",
+    "stat3Value": "Cross-Platform",
+    "feature1": {
+      "title": "Native performance",
+      "description": "Smooth 60fps animations and direct access to native APIs for an experience indistinguishable from a native app."
     },
-    "project2": {
-      "title": "Revenue Manager",
-      "category": "Fintech / Government / Web"
+    "feature2": {
+      "title": "One code, two stores",
+      "description": "A single shared codebase for iOS and Android. Reduced costs, simplified maintenance, synchronized updates."
     },
-    "project3": {
-      "title": "Saly Estate",
-      "category": "Real Estate / Branding / Web"
-    }
+    "feature3": {
+      "title": "From prototype to store",
+      "description": "From UI/UX design to App Store and Google Play deployment. CI/CD, OTA updates and monitoring included."
+    },
+    "techLabel": "Mobile stack",
+    "tech1": "React Native",
+    "tech2": "Expo",
+    "tech3": "TypeScript",
+    "tech4": "Native Modules",
+    "tech5": "App Store / Play Store"
   },
   "footer": {
     "title1": "Ready to",
     "title2": "escalate?",
     "location": "Plateau, Dakar, Senegal",
-    "newsletter": "Newsletter / Perspectives",
-    "emailPlaceholder": "EMAIL ADDRESS",
-    "join": "Join",
     "rights": "© {year} TeggiTech Agency. All Rights Reserved.",
     "tagline": "Designed in Dakar / Built for the world"
   }

@@ -6,7 +6,7 @@
   "nav": {
     "offers": "Offres",
     "expertises": "Expertises",
-    "projects": "Projets",
+    "mobile": "Mobile",
     "contact": "Contact",
     "cta": "Démarrer un projet"
   },
@@ -94,30 +94,40 @@
       "cap5": "Base de données & Backend"
     }
   },
-  "projects": {
-    "title": "Archives",
-    "subtitle": "Sélectionnées",
-    "description": "Des projets sélectionnés qui illustrent notre engagement pour la précision technique et la clarté esthétique.",
-    "project1": {
-      "title": "TiakTiak Ecosystem",
-      "category": "Marketplace / Logistique / Mobile"
+  "mobile": {
+    "label": "Applications Mobiles",
+    "title": "mobile-first",
+    "headline": "Une app native, deux plateformes",
+    "description": "Nous concevons et développons des applications mobiles cross-platform pour iOS et Android avec une seule base de code. Performance native, expérience fluide, déploiement rapide.",
+    "stat1Label": "Plateformes",
+    "stat1Value": "iOS & Android",
+    "stat2Label": "Framework",
+    "stat2Value": "React Native",
+    "stat3Label": "Approche",
+    "stat3Value": "Cross-Platform",
+    "feature1": {
+      "title": "Performance native",
+      "description": "Des animations fluides à 60fps et un accès direct aux APIs natives pour une expérience indistinguable d'une app native."
     },
-    "project2": {
-      "title": "Revenue Manager",
-      "category": "Fintech / Gouvernement / Web"
+    "feature2": {
+      "title": "Un code, deux stores",
+      "description": "Une seule base de code partagée entre iOS et Android. Réduction des coûts, maintenance simplifiée, mises à jour synchronisées."
     },
-    "project3": {
-      "title": "Saly Estate",
-      "category": "Immobilier / Branding / Web"
-    }
+    "feature3": {
+      "title": "Du prototype au store",
+      "description": "De la conception UI/UX au déploiement sur l'App Store et Google Play. CI/CD, OTA updates et monitoring inclus."
+    },
+    "techLabel": "Stack mobile",
+    "tech1": "React Native",
+    "tech2": "Expo",
+    "tech3": "TypeScript",
+    "tech4": "Native Modules",
+    "tech5": "App Store / Play Store"
   },
   "footer": {
     "title1": "Prêt à",
     "title2": "passer au niveau supérieur ?",
     "location": "Plateau, Dakar, Sénégal",
-    "newsletter": "Newsletter / Perspectives",
-    "emailPlaceholder": "ADRESSE EMAIL",
-    "join": "Rejoindre",
     "rights": "© {year} TeggiTech Agency. Tous droits réservés.",
     "tagline": "Conçu à Dakar / Construit pour le monde"
   }

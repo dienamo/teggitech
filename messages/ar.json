@@ -6,7 +6,7 @@
   "nav": {
     "offers": "خدماتنا",
     "expertises": "خبراتنا",
-    "projects": "مشاريعنا",
+    "mobile": "موبايل",
     "contact": "تواصل معنا",
     "cta": "ابدأ مشروعك"
   },
@@ -94,30 +94,40 @@
       "cap5": "قواعد البيانات والخلفية"
     }
   },
-  "projects": {
-    "title": "أعمال",
-    "subtitle": "مختارة",
-    "description": "مشاريع مختارة تعكس التزامنا بالدقة التقنية والوضوح الجمالي.",
-    "project1": {
-      "title": "منظومة تياك تياك",
-      "category": "سوق إلكتروني / لوجستيات / موبايل"
+  "mobile": {
+    "label": "تطبيقات الهاتف",
+    "title": "الموبايل أولاً",
+    "headline": "تطبيق واحد، منصتان",
+    "description": "نصمم ونطور تطبيقات هاتف متعددة المنصات لـ iOS و Android من قاعدة كود واحدة. أداء أصلي، تجربة سلسة، نشر سريع.",
+    "stat1Label": "المنصات",
+    "stat1Value": "iOS & Android",
+    "stat2Label": "الإطار",
+    "stat2Value": "React Native",
+    "stat3Label": "النهج",
+    "stat3Value": "متعدد المنصات",
+    "feature1": {
+      "title": "أداء أصلي",
+      "description": "رسوم متحركة سلسة بمعدل 60 إطار في الثانية مع وصول مباشر لواجهات برمجة التطبيقات الأصلية."
     },
-    "project2": {
-      "title": "مدير الإيرادات",
-      "category": "تكنولوجيا مالية / حكومة / ويب"
+    "feature2": {
+      "title": "كود واحد، متجران",
+      "description": "قاعدة كود مشتركة واحدة لـ iOS و Android. تخفيض التكاليف، صيانة مبسطة، تحديثات متزامنة."
     },
-    "project3": {
-      "title": "سالي إستيت",
-      "category": "عقارات / هوية بصرية / ويب"
-    }
+    "feature3": {
+      "title": "من النموذج إلى المتجر",
+      "description": "من تصميم واجهة المستخدم إلى النشر على App Store و Google Play. CI/CD وتحديثات فورية ومراقبة مضمنة."
+    },
+    "techLabel": "تقنيات الموبايل",
+    "tech1": "React Native",
+    "tech2": "Expo",
+    "tech3": "TypeScript",
+    "tech4": "Native Modules",
+    "tech5": "App Store / Play Store"
   },
   "footer": {
     "title1": "مستعد",
     "title2": "للانطلاق؟",
     "location": "بلاتو، داكار، السنغال",
-    "newsletter": "النشرة الإخبارية",
-    "emailPlaceholder": "البريد الإلكتروني",
-    "join": "اشترك",
     "rights": "© {year} تيغي تك. جميع الحقوق محفوظة.",
     "tagline": "صُمم في داكار / بُني للعالم"
   }
