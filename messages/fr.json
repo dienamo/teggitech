@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "TeggiTech — Agence Digitale | Dakar, Sénégal",
+    "description": "Nous créons des expériences digitales. Applications mobiles, plateformes web et solutions gouvernementales conçues en Afrique de l'Ouest pour le monde."
+  },
+  "nav": {
+    "offers": "Offres",
+    "expertises": "Expertises",
+    "projects": "Projets",
+    "contact": "Contact",
+    "cta": "Démarrer un projet"
+  },
+  "hero": {
+    "label": "Excellence Technique / Dakar",
+    "title1": "On Crée",
+    "title2": "des Expériences",
+    "title3": "Digitales",
+    "description": "Un studio premium de design et développement qui transforme les idées complexes en solutions digitales élégantes. Depuis l'Afrique de l'Ouest vers le monde, nous construisons pour",
+    "cta": "Voir nos réalisations",
+    "imageLabel": "Laboratoire 04-B / Dakar",
+    "collaborators": "Nos collaborations",
+    "collaborator1": "Le Gouvernement du Sénégal",
+    "collaborator2": "Startups Régionales",
+    "collaborator3": "Entreprises Internationales"
+  },
+  "taglines": {
+    "1": "Plateformes Web",
+    "2": "Applications Mobiles",
+    "3": "Solutions Gouvernementales",
+    "4": "E-Commerce"
+  },
+  "offers": {
+    "label": "Notre expertise",
+    "title": "nos offres",
+    "headline": "On vous accompagne de bout en bout",
+    "description": "Trois piliers pour transformer vos ambitions digitales en réalité technique.",
+    "approach": "Notre approche repose sur des pratiques agiles et un regard critique permanent. À la fois exécutants et penseurs, nous accompagnons vos transformations de la stratégie à la mise en production.",
+    "domainsLabel": "Nos domaines",
+    "domain1": "Solutions Mobile-First",
+    "domain2": "Produits Digitaux Sur-Mesure",
+    "domain3": "Technologies Gouvernementales",
+    "domain4": "Propulsé par l'IA",
+    "sectorsLabel": "Secteurs d'intervention",
+    "sector1": "Service Public",
+    "sector2": "Finance & Fintech",
+    "sector3": "Commerce & Logistique",
+    "sector4": "Immobilier",
+    "sector5": "Startups & Scale-ups",
+    "conseil": {
+      "title": "conseil",
+      "description": "Nous analysons vos besoins, auditons les systèmes existants et définissons l'architecture technique optimale. Nous vous guidons dans vos choix technologiques.",
+      "cap1": "Audit technique",
+      "cap2": "Architecture cloud",
+      "cap3": "Choix de stack",
+      "cap4": "Bonnes pratiques"
+    },
+    "strategie": {
+      "title": "stratégie",
+      "description": "Nous définissons la roadmap de votre produit digital, priorisons les fonctionnalités, planifions les sprints et concevons votre go-to-market. Du MVP au scale.",
+      "cap1": "Roadmap produit",
+      "cap2": "Stratégie UX",
+      "cap3": "Go-to-market",
+      "cap4": "Planification sprints"
+    },
+    "delivery": {
+      "title": "delivery",
+      "description": "Nous construisons. Applications mobiles cross-platform iOS & Android en React Native, plateformes web en Next.js, APIs et intégrations. Développement end-to-end avec assurance qualité.",
+      "cap1": "Next.js / React",
+      "cap2": "iOS & Android / React Native",
+      "cap3": "API Design",
+      "cap4": "Assurance qualité"
+    }
+  },
+  "expertises": {
+    "label": "Nos expertises",
+    "title": "nos expertises",
+    "description": "Deux pôles de compétences complémentaires pour concevoir et livrer des produits digitaux d'exception.",
+    "product": {
+      "title": "Product & Design",
+      "description": "Nous concevons des expériences utilisateur qui combinent esthétique et fonctionnalité. De la recherche utilisateur au design system, nous créons des interfaces qui convertissent et fidélisent.",
+      "cap1": "Recherche utilisateur",
+      "cap2": "UI/UX Design",
+      "cap3": "Design Systems",
+      "cap4": "Prototypage & Tests",
+      "cap5": "Direction artistique"
+    },
+    "engineering": {
+      "title": "Software Engineering",
+      "description": "Nous architecturons et développons des systèmes robustes et scalables. Code propre, performance optimale, et déploiement continu pour des produits qui tiennent la charge.",
+      "cap1": "Next.js / React",
+      "cap2": "Cross-Platform iOS & Android",
+      "cap3": "Node.js / APIs",
+      "cap4": "Cloud & DevOps",
+      "cap5": "Base de données & Backend"
+    }
+  },
+  "projects": {
+    "title": "Archives",
+    "subtitle": "Sélectionnées",
+    "description": "Des projets sélectionnés qui illustrent notre engagement pour la précision technique et la clarté esthétique.",
+    "project1": {
+      "title": "TiakTiak Ecosystem",
+      "category": "Marketplace / Logistique / Mobile"
+    },
+    "project2": {
+      "title": "Revenue Manager",
+      "category": "Fintech / Gouvernement / Web"
+    },
+    "project3": {
+      "title": "Saly Estate",
+      "category": "Immobilier / Branding / Web"
+    }
+  },
+  "footer": {
+    "title1": "Prêt à",
+    "title2": "passer au niveau supérieur ?",
+    "location": "Plateau, Dakar, Sénégal",
+    "newsletter": "Newsletter / Perspectives",
+    "emailPlaceholder": "ADRESSE EMAIL",
+    "join": "Rejoindre",
+    "rights": "© {year} TeggiTech Agency. Tous droits réservés.",
+    "tagline": "Conçu à Dakar / Construit pour le monde"
+  }
+}

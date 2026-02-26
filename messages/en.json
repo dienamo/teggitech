@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "TeggiTech — Digital Agency | Dakar, Senegal",
+    "description": "We craft digital experiences. Mobile apps, web platforms, and government solutions built in West Africa for the world."
+  },
+  "nav": {
+    "offers": "Services",
+    "expertises": "Expertise",
+    "projects": "Work",
+    "contact": "Contact",
+    "cta": "Start a project"
+  },
+  "hero": {
+    "label": "Engineering Excellence / Dakar",
+    "title1": "We Craft",
+    "title2": "Digital",
+    "title3": "Experiences",
+    "description": "A premium design and development studio bridging the gap between hardware complexity and user-centric software. From West Africa to the world, we build for",
+    "cta": "View Case Studies",
+    "imageLabel": "Laboratory 04-B / Dakar",
+    "collaborators": "Collaborating with",
+    "collaborator1": "The Senegalese Government",
+    "collaborator2": "Regional Startups",
+    "collaborator3": "Global Enterprises"
+  },
+  "taglines": {
+    "1": "Web Platforms",
+    "2": "Mobile Apps",
+    "3": "Government Solutions",
+    "4": "E-Commerce"
+  },
+  "offers": {
+    "label": "Our expertise",
+    "title": "our offers",
+    "headline": "We support you end-to-end",
+    "description": "Three pillars to turn your digital ambitions into technical reality.",
+    "approach": "Our approach is built on agile practices and a permanent critical eye. Both doers and thinkers, we guide your transformations from strategy to production.",
+    "domainsLabel": "Our domains",
+    "domain1": "Mobile-First Solutions",
+    "domain2": "Tailor-Made Digital Products",
+    "domain3": "Government Technology",
+    "domain4": "Powered by AI",
+    "sectorsLabel": "Industries we serve",
+    "sector1": "Public Sector",
+    "sector2": "Finance & Fintech",
+    "sector3": "Commerce & Logistics",
+    "sector4": "Real Estate",
+    "sector5": "Startups & Scale-ups",
+    "conseil": {
+      "title": "consulting",
+      "description": "We analyze your needs, audit existing systems, and define the optimal technical architecture. We guide you through technology choices and best practices.",
+      "cap1": "Technical audit",
+      "cap2": "Cloud architecture",
+      "cap3": "Stack selection",
+      "cap4": "Best practices"
+    },
+    "strategie": {
+      "title": "strategy",
+      "description": "We define your digital product roadmap, prioritize features, plan sprints, and design your go-to-market. From MVP to scale.",
+      "cap1": "Product roadmap",
+      "cap2": "UX strategy",
+      "cap3": "Go-to-market",
+      "cap4": "Sprint planning"
+    },
+    "delivery": {
+      "title": "delivery",
+      "description": "We build. Cross-platform mobile apps for iOS & Android with React Native, web platforms with Next.js, APIs and integrations. End-to-end development with quality assurance.",
+      "cap1": "Next.js / React",
+      "cap2": "iOS & Android / React Native",
+      "cap3": "API Design",
+      "cap4": "Quality assurance"
+    }
+  },
+  "expertises": {
+    "label": "Our expertise",
+    "title": "our expertise",
+    "description": "Two complementary skill sets to design and deliver exceptional digital products.",
+    "product": {
+      "title": "Product & Design",
+      "description": "We design user experiences that combine aesthetics and functionality. From user research to design systems, we create interfaces that convert and retain.",
+      "cap1": "User research",
+      "cap2": "UI/UX Design",
+      "cap3": "Design Systems",
+      "cap4": "Prototyping & Testing",
+      "cap5": "Art direction"
+    },
+    "engineering": {
+      "title": "Software Engineering",
+      "description": "We architect and develop robust, scalable systems. Clean code, optimal performance, and continuous deployment for products that handle the load.",
+      "cap1": "Next.js / React",
+      "cap2": "Cross-Platform iOS & Android",
+      "cap3": "Node.js / APIs",
+      "cap4": "Cloud & DevOps",
+      "cap5": "Database & Backend"
+    }
+  },
+  "projects": {
+    "title": "Featured",
+    "subtitle": "Archives",
+    "description": "Selected projects that showcase our commitment to technical precision and aesthetic clarity.",
+    "project1": {
+      "title": "TiakTiak Ecosystem",
+      "category": "Marketplace / Logistics / Mobile"
+    },
+    "project2": {
+      "title": "Revenue Manager",
+      "category": "Fintech / Government / Web"
+    },
+    "project3": {
+      "title": "Saly Estate",
+      "category": "Real Estate / Branding / Web"
+    }
+  },
+  "footer": {
+    "title1": "Ready to",
+    "title2": "escalate?",
+    "location": "Plateau, Dakar, Senegal",
+    "newsletter": "Newsletter / Perspectives",
+    "emailPlaceholder": "EMAIL ADDRESS",
+    "join": "Join",
+    "rights": "© {year} TeggiTech Agency. All Rights Reserved.",
+    "tagline": "Designed in Dakar / Built for the world"
+  }
+}
