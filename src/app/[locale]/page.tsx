@@ -69,13 +69,16 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 px-6 py-5 md:py-8 md:px-12 flex justify-between items-end bg-white/80 backdrop-blur-md">
-      <div className="flex flex-col">
-        <span className="text-neutral-900 font-bold tracking-tighter text-xl leading-none">
-          TEGGITECH
-        </span>
-        <span className="text-neutral-500 text-[10px] uppercase tracking-widest mt-1">
-          Dakar / Senegal
-        </span>
+      <div className="flex items-center gap-3">
+        <img src="/teggitech-logo-mark.png" alt="TeggiTech" className="w-9 h-9" />
+        <div className="flex flex-col">
+          <span className="text-neutral-900 font-bold tracking-tighter text-xl leading-none">
+            TEGGITECH
+          </span>
+          <span className="text-neutral-500 text-[10px] uppercase tracking-widest mt-1">
+            Dakar / Senegal
+          </span>
+        </div>
       </div>
 
       <div className="hidden md:flex items-center gap-12 text-neutral-600 text-xs uppercase tracking-[0.2em] font-medium">
@@ -112,13 +115,16 @@ const Navbar = () => {
             className="fixed inset-0 z-[60] bg-neutral-900 text-white flex flex-col"
           >
             <div className="px-6 py-5 flex items-end">
-              <div className="flex flex-col">
-                <span className="text-white font-bold tracking-tighter text-xl leading-none">
-                  TEGGITECH
-                </span>
-                <span className="text-white/40 text-[10px] uppercase tracking-widest mt-1">
-                  Dakar / Senegal
-                </span>
+              <div className="flex items-center gap-3">
+                <img src="/teggitech-logo-mark.png" alt="TeggiTech" className="w-9 h-9 brightness-0 invert" />
+                <div className="flex flex-col">
+                  <span className="text-white font-bold tracking-tighter text-xl leading-none">
+                    TEGGITECH
+                  </span>
+                  <span className="text-white/40 text-[10px] uppercase tracking-widest mt-1">
+                    Dakar / Senegal
+                  </span>
+                </div>
               </div>
             </div>
 
