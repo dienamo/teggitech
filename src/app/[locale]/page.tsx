@@ -76,7 +76,7 @@ const Navbar = () => {
             TEGGITECH
           </span>
           <span className="text-neutral-500 text-[10px] uppercase tracking-widest mt-1">
-            Dakar / Senegal
+            Digital Agency
           </span>
         </div>
       </div>
@@ -122,7 +122,7 @@ const Navbar = () => {
                     TEGGITECH
                   </span>
                   <span className="text-white/40 text-[10px] uppercase tracking-widest mt-1">
-                    Dakar / Senegal
+                    Digital Agency
                   </span>
                 </div>
               </div>
@@ -162,7 +162,7 @@ const Navbar = () => {
               <div className="mt-6 flex items-center justify-between">
                 <LanguageSwitcher dark />
                 <span className="text-white/20 text-[9px] uppercase tracking-widest">
-                  Dakar, Senegal
+                  Digital Agency
                 </span>
               </div>
             </div>
@@ -948,9 +948,6 @@ export default function Home() {
               >
                 hello@teggitech.sn
               </a>
-              <p className="text-neutral-400 text-sm uppercase tracking-widest mt-4">
-                {t("footer.location")}
-              </p>
             </div>
           </div>
 

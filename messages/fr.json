@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "TeggiTech — Agence Digitale | Dakar, Sénégal",
-    "description": "Nous créons des applications mobiles, sites web et solutions digitales. Basés à Dakar, nous travaillons pour l'Afrique et le monde."
+    "title": "TeggiTech — Agence Digitale",
+    "description": "Nous créons des applications mobiles, sites web et solutions digitales pour les entreprises du monde entier."
   },
   "nav": {
     "offers": "Services",
@@ -12,13 +12,13 @@
     "cta": "Démarrer un projet"
   },
   "hero": {
-    "label": "Agence Digitale / Dakar",
+    "label": "Agence Digitale",
     "title1": "On Crée",
     "title2": "des Expériences",
     "title3": "Digitales",
-    "description": "On conçoit et développe vos applications mobiles, sites web et plateformes digitales. Depuis Dakar pour le monde entier, nous construisons pour",
+    "description": "On conçoit et développe vos applications mobiles, sites web et plateformes digitales. Nous construisons pour",
     "cta": "Voir nos réalisations",
-    "imageLabel": "Laboratoire 04-B / Dakar",
+    "imageLabel": "Laboratoire 04-B",
     "collaborators": "Ils nous font confiance",
     "collaborator1": "Le Gouvernement du Sénégal",
     "collaborator2": "Startups Régionales",
@@ -155,8 +155,7 @@
   "footer": {
     "title1": "Un projet",
     "title2": "en tête ?",
-    "location": "Plateau, Dakar, Sénégal",
     "rights": "© {year} TeggiTech. Tous droits réservés.",
-    "tagline": "Conçu à Dakar / Construit pour le monde"
+    "tagline": "Conçu avec soin / Construit pour le monde"
   }
 }

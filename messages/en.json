@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "TeggiTech — Digital Agency | Dakar, Senegal",
-    "description": "We build mobile apps, websites and digital solutions. Based in Dakar, working for Africa and the world."
+    "title": "TeggiTech — Digital Agency",
+    "description": "We build mobile apps, websites and digital solutions for businesses worldwide."
   },
   "nav": {
     "offers": "Services",
@@ -12,13 +12,13 @@
     "cta": "Start a project"
   },
   "hero": {
-    "label": "Digital Agency / Dakar",
+    "label": "Digital Agency",
     "title1": "We Craft",
     "title2": "Digital",
     "title3": "Experiences",
-    "description": "We design and build mobile apps, websites and digital platforms. From Dakar to the world, we create for",
+    "description": "We design and build mobile apps, websites and digital platforms. We create for",
     "cta": "See our work",
-    "imageLabel": "Laboratory 04-B / Dakar",
+    "imageLabel": "Laboratory 04-B",
     "collaborators": "Trusted by",
     "collaborator1": "The Senegalese Government",
     "collaborator2": "Regional Startups",
@@ -155,8 +155,7 @@
   "footer": {
     "title1": "Got a project",
     "title2": "in mind?",
-    "location": "Plateau, Dakar, Senegal",
     "rights": "© {year} TeggiTech. All Rights Reserved.",
-    "tagline": "Designed in Dakar / Built for the world"
+    "tagline": "Crafted with care / Built for the world"
   }
 }
