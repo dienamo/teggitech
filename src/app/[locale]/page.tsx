@@ -92,9 +92,9 @@ const Navbar = () => {
           </a>
         ))}
         <LanguageSwitcher />
-        <button className="bg-neutral-900 text-white px-5 py-2 hover:bg-blue-600 transition-all duration-500 rounded-full text-[10px]">
+        <a href="https://calendly.com/dienamoustapha/30min" target="_blank" rel="noopener noreferrer" className="bg-neutral-900 text-white px-5 py-2 hover:bg-blue-600 transition-all duration-500 rounded-full text-[10px]">
           {t("cta").toUpperCase()}
-        </button>
+        </a>
       </div>
 
       <button
@@ -153,7 +153,9 @@ const Navbar = () => {
 
             <div className="px-6 pb-10">
               <a
-                href="#contact"
+                href="https://calendly.com/dienamoustapha/30min"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}
                 className="block w-full bg-white text-neutral-900 py-4 text-xs uppercase tracking-widest font-bold text-center rounded-full"
               >
@@ -843,10 +845,10 @@ export default function Home() {
               transition={{ delay: 0.8, duration: 0.8 }}
               className="mt-8 flex items-center gap-6"
             >
-              <button className="group flex items-center gap-3 text-sm uppercase tracking-widest font-bold">
+              <a href="https://calendly.com/dienamoustapha/30min" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 text-sm uppercase tracking-widest font-bold">
                 {t("hero.cta")}
                 <div className="w-8 h-[1px] bg-blue-600 group-hover:w-16 transition-all duration-500" />
-              </button>
+              </a>
             </motion.div>
           </div>
         </div>
@@ -943,10 +945,12 @@ export default function Home() {
             </h3>
             <div className="mt-12 flex flex-col gap-4">
               <a
-                href="mailto:hello@teggitech.sn"
+                href="https://calendly.com/dienamoustapha/30min"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-xl md:text-3xl font-normal hover:text-blue-400 transition-colors underline underline-offset-8 decoration-neutral-600"
               >
-                hello@teggitech.sn
+                Calendly
               </a>
             </div>
           </div>
